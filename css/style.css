@@ -1,5 +1,5 @@
 body {
-  background-color: yellow; }
+  background-color: #aadae2; }
 
 /* CSS TABLE OF CONTENTS *
 
@@ -8,3 +8,29 @@ body {
     #TYPOGRAPGY
     #LINKS  
 */
+/*BODY */
+body {
+  font-size: 100%;
+  line-height: 1.4; }
+
+/* HEADINGS */
+h1, h2, h3 {
+  margin: .5em 0; }
+
+h1 {
+  font-size: 3em;
+  line-height: 1em; }
+
+h2 {
+  font-size: 2em;
+  line-height: 1.1em; }
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2em; }
+
+/* TYPE SPECIMEN  */
+.mainhead {
+  font-size: 6em;
+  color: red;
+  margin-bottom: 0; }
