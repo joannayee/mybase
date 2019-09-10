@@ -1,5 +1,5 @@
 body {
-  background-color: #aadae2; }
+  background-color: #fff; }
 
 /* CSS TABLE OF CONTENTS *
 
@@ -30,13 +30,52 @@ h3 {
   font-size: 1.5em;
   line-height: 1.2em; }
 
+p {
+  max-width: 35em; }
+
+/* Horizontal Rule*/
+hr {
+  border: 0;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.15);
+  margin: 3em 0; }
+
 /* TYPE SPECIMEN  */
 .mainhead {
   font-size: 6em;
-  color: red;
+  color: #ff9900;
   margin-bottom: 0; }
 
 .subhead {
-  font-family: "adobe-caslon-pro";
+  font-family: "Roboto";
   color: black;
   margin-bottom: 1em; }
+
+/* BUTTONS */
+button,
+.button {
+  font-size: inherit;
+  font-family: "Roboto";
+  background-color: #069;
+  line-height: 1;
+  color: #fff;
+  padding: 1em;
+  display: inline-block;
+  margin: .5em;
+  border-radius: .5em;
+  border: 1px solid #069;
+  cursor: pointer; }
+  button:hover,
+  .button:hover {
+    background-color: #064768;
+    color: #fff;
+    border-color: #064768; }
+  button.alt,
+  .button.alt {
+    background-color: #fff;
+    color: #064768; }
+    button.alt:hover,
+    .button.alt:hover {
+      background-color: #064768;
+      color: #fff;
+      border-color: #064768; }

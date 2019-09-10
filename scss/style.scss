@@ -1,8 +1,12 @@
 // VARIABLES
-$bodybackground: rgb(170, 218, 226);
-$body-fontfamily: 'adobe-caslon-pro';
-$color-accent: red;
+$bodybackground: #fff;
+$body-fontfamily: 'Roboto';
+$color-text-body: rgba(0,0,0,.85);
+$color-accent: rgba(255,153,0,1);
 $color-midgrey: rgba(0,0,0,5);
+$color-links: #069;
+$color-links-dark: rgb(6, 71, 104);
+
 
 body {
     background-color: $bodybackground; 
@@ -11,3 +15,4 @@ body {
 // IMPORT PARTIALS
 @import "partials/toc"; 
 @import "partials/typography"; 
+@import "partials/buttons"; 
