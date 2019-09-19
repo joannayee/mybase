@@ -1,0 +1,32 @@
+/* GRID */
+
+// This is a semantic grid//
+.row {
+    padding: 1% 0;
+    .column {
+        margin-bottom: 2%;
+    }
+}
+
+@media (min-width: $breakpoint-small){
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+    .column{
+        // color: red;
+        flex-grow: 1;
+        margin: 1%;
+}
+}
+//CSS GRID//
+@media (min-width: $breakpoint-small){
+    .row { display: grid;
+    }
+.row.demo {
+    .column {
+        background: rgba(0,0,0,.5);
+        padding: 1.5em;
+        text-align: center;
+    }
+} 
