@@ -19,10 +19,7 @@
         margin: 1%;
 }
 }
-//CSS GRID//
-@media (min-width: $breakpoint-small){
-    .row { display: grid;
-    }
+
 .row.demo {
     .column {
         background: rgba(0,0,0,.5);
