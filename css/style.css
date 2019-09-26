@@ -186,7 +186,7 @@ body {
 
 /* Sections */
 section {
-  padding: 3em 1em; }
+  padding: 3em 0; }
 
 .hero {
   padding: 6em 0;
