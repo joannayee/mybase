@@ -1,0 +1,68 @@
+/* Site header */
+
+
+ .site-header, .site-footer{
+     background-color: $color-accent;
+     padding: 1em;
+     display: flex;
+     color: #fff;
+     justify-content: space-between;
+
+     h1 {
+         font-family: $body-fontfamily;
+         font-size: 1.5em;
+         margin: .5em 0 0 0;
+     }
+     a {
+        color: #fff;
+        text-decoration: none;
+    }
+ }
+
+ /* Site Nav */
+
+ .site-nav { 
+     ul { 
+         margin: 0;
+         padding: 0;
+         list-style: none;
+         display: flex;
+     }
+
+     a {
+         display: block;
+         padding : 1em;
+     }
+ }
+/* Site Footer */
+.site-footer {
+    justify-content: center;
+    margin-top: 0;
+}
+/* Sections */
+
+section {
+    padding: 3em 1em;
+}
+
+.hero {
+    padding: 6em 0;
+    background: $color-hero-bg;
+    margin-bottom: 3em;
+    text-align: center;
+
+    p {
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+h2 {
+    display: flex;
+    justify-content: center;
+
+    
+}
+    
+    
+}

@@ -2,10 +2,12 @@
 $bodybackground: #fff;
 $body-fontfamily: 'Roboto';
 $color-text-body: rgba(0,0,0,.85);
-$color-accent: rgba(255,153,0,1);
 $color-midgrey: rgba(0,0,0,5);
 $color-links: #069;
-$color-links-dark: rgb(6, 71, 104); 
+$color-links-dark: #685406; 
+
+$color-accent: rgba(255,153,0,1);
+$color-hero-bg: rgba(255,153,0,.2);
 
 
 body {
@@ -25,5 +27,6 @@ $breakpoint-large: 1250px;
 @import "partials/media"; 
 @import "partials/layout"; 
 @import "partials/grid";  
+@import "partials/structure";  
 
     
