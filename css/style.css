@@ -52,7 +52,8 @@ hr {
   font-size: 1em;
   text-transform: uppercase;
   letter-spacing: .2em;
-  line-height: 1; }
+  line-height: 1;
+  margin-bottom: 3em; }
 
 .subhead {
   font-family: "Roboto";
