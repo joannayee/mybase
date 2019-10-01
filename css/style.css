@@ -111,10 +111,8 @@ body {
     max-width: 1050px; } }
 
 /* GRID */
-.row {
-  padding: 1% 0; }
-  .row .column {
-    margin-bottom: 2%; }
+.row .column {
+  margin-bottom: 2%; }
 
 @media (min-width: 768px) {
   .row {
